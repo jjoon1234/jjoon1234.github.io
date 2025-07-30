@@ -143,3 +143,68 @@ article {
 article h2 {
     margin-top: 0; /* 본문 첫 제목의 위쪽 여백 제거 */
 }
+
+/* 
+========================================
+홈페이지 랜딩 스타일 (두 개 버튼)
+========================================
+*/
+
+/* 두 버튼을 감싸는 전체 컨테이너 */
+.landing-container {
+    display: flex; /* 버튼을 가로 또는 세로로 정렬하기 위한 Flexbox 사용 */
+    flex-direction: column; /* 기본은 세로로 쌓기 (모바일) */
+    gap: 20px; /* 버튼 사이의 간격 */
+    width: 100%;
+}
+
+/* 개별 버튼 공통 스타일 */
+.landing-button {
+    flex: 1; /* 버튼이 공간을 균등하게 차지하도록 함 */
+    padding: 4em 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 버튼 위에 마우스를 올렸을 때 효과 */
+.landing-button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* 버튼 안의 제목(h2)과 설명(p) 스타일 */
+.landing-button h2 {
+    margin: 0 0 10px 0;
+    border-bottom: none; /* 기존 h2 밑줄 제거 */
+    font-size: 2em;
+}
+.landing-button p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* '소개' 버튼 배경색 */
+#about-button {
+    background-color: #5a8bb5;
+}
+
+/* '프로젝트' 버튼 배경색 */
+#projects-button {
+    background-color: #72a569;
+}
+
+
+/* 
+========================================
+반응형 디자인: 화면이 넓어질 때 적용
+========================================
+*/
+@media (min-width: 768px) {
+    /* 화면 너비가 768px 이상일 때 (태블릿/데스크탑) */
+    .landing-container {
+        flex-direction: row; /* 버튼을 가로로 나란히 배치 */
+    }
+}
