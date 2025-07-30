@@ -18,7 +18,7 @@ category: project
 
 <details>
 <summary>App.js(클릭해서 열기)</summary>
-<script src="https://gist.github.com/jjoon1234/9d79a8f6e98f3dce63d6f9ec7ea124c9.js"></script>
+  <script src="https://gist.github.com/jjoon1234/9d79a8f6e98f3dce63d6f9ec7ea124c9.js"></script>
 </details>
 
 
@@ -26,6 +26,7 @@ category: project
 
 <details>
 <summary>App.css(클릭해서 열기)</summary>
+  <script src="https://gist.github.com/jjoon1234/6551d54f75d9f799e3cf7c996d0aa286.js"></script>
 </details>
 
 
