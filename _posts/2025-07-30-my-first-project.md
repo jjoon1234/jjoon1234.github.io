@@ -41,6 +41,7 @@ category: project
 
 <details>
 <summary>Signup.js(클릭해서 열기)</summary>
+  <script src="https://gist.github.com/jjoon1234/68912f478a663b102b341f2f8d5f96e8.js"></script>
 </details>
 
 ### 5. index.js파일은 아래처럼 작성함
