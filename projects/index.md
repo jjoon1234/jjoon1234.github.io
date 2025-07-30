@@ -5,7 +5,7 @@ title: "프로젝트"
 
 ## 프로젝트 목록
 
-<ul>
+<ul class="project-list">
   {% for post in site.posts %}
     {% if post.category == 'project' %}
       <li>
