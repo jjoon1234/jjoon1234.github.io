@@ -74,7 +74,7 @@ App.js와 그 하위 컴포넌트(캘린더, 버튼, 입력창, 일정 목록 �
 #### 1. 시작 (index.js)
 - 사용자가 웹사이트에 접속하면, index.js가 App.js 컴포넌트를 웹 페이지에 띄워줍니다.
 
-#3## 2. 메인 앱 로딩 (App.js)
+#### 2. 메인 앱 로딩 (App.js)
 - App.js가 실행되면서 가장 먼저 localStorage를 확인하여 현재 로그인된 사용자가 있는지 파악합니다.
 
 #### 3. 로그인 상태 확인 및 화면 분기
@@ -94,9 +94,12 @@ App.js와 그 하위 컴포넌트(캘린더, 버튼, 입력창, 일정 목록 �
 
 ## 결과 화면
 #### 1. 로그인/회원가입 화면
-<img width="1919" height="1017" alt="로그인,회원가입 화면" src="https://github.com/user-attachments/assets/f9e32174-2545-4f8b-937d-c864e2be0c94" />
+<img alt="로그인,회원가입 화면" style="max-width: 100%; height: auto;" src="https://github.com/user-attachments/assets/f9e32174-2545-4f8b-937d-c864e2be0c94" />
 
 #### 2. 메인 화면(일정 관리 화면)
-<img width="1919" height="1025" alt="메인 화면" src="https://github.com/user-attachments/assets/21d870ef-97e1-4f9b-b878-e0235fbe5cf8" />
+<img alt="메인 화면" style="max-width: 100%; height: auto;" src="https://github.com/user-attachments/assets/21d870ef-97e1-4f9b-b878-e0235fbe5cf8" />
+
+## 프로젝트 소감
+전역 후로 프로그래밍 실력이 거의 비전공자 수준으로 초기화된 상태였었다. 심지어, 개인 프로젝트라 더 부담됬다.(혼자서 모든 기능을 다 만들 수 있을까...?) 하지만, 이런 걱정은 정말 무의미 했다. 이제는 AI가 코딩을 다 알려주고, 도와주기 때문이였다. Cursor라는 개발환경에서 개발을 했었는데, 여기에 있는 AI기능으로 개발을 진행했다. 아마 AI의 도움이 없었다면, 로그인/회원가입을 구현하는데도 혼자 끙끙거렸을 것이다. 예전에 한 프로젝트를 지금 다시 정리하면서 보니...정말..너무..못 만들었다는 생각이 든다...그래도..나도 점점 성장하고 있는구나를 느낀다.
 
 
