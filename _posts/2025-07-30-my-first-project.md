@@ -55,4 +55,5 @@ category: project
 
 <details>
 <summary>index.js(클릭해서 열기)</summary>
+  <script src="https://gist.github.com/jjoon1234/bf4802ea357ab24459ca0c089750e67a.js"></script>
 </details>
