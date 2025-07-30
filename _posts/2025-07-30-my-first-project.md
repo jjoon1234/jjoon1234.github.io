@@ -8,8 +8,12 @@ category: project
 2학년 1학기 React를 사용한 웹 개발 (개인)프로젝트
 
 ## 사용 기술
-- HTML, CSS, React
+- HTML
+- CSS
+- React
+- JS
 
+## 주요 코드
 App.js 파일은 아래와 같이 작성함
 
 <details>
