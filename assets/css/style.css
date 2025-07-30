@@ -1,68 +1,76 @@
-/* 전체적인 페이지 스타일 */
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", "나눔고딕", Dotum, Arial, sans-serif;
-    line-height: 1.7;
-    margin: 0 auto;
-    padding: 40px 20px;
-    max-width: 800px; /* 너무 넓어지지 않게 고정 */
-    color: #333;
-    background-color: #f8f9fa;
+/* 
+========================================
+페이지 콘텐츠 스타일
+========================================
+*/
+
+/* h2 제목 (소개, 프로젝트, 게시글의 각 소제목) */
+h2 {
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-/* 헤더 (블로그 제목, 설명) */
-header {
-    border-bottom: 1px solid #e9ecef;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-header h1 a {
-    text-decoration: none;
-    color: #212529;
-}
-
-/* 내비게이션 메뉴 (소개, 프로젝트) */
-nav {
-    text-align: center;
-    margin-bottom: 40px;
-}
-nav a {
-    margin: 0 15px;
-    color: #495057;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-nav a:hover {
-    color: #0d6efd; /* 마우스 올렸을 때 색상 */
-}
-
-/* 접기/펼치기 기능 스타일 */
-details {
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    margin: 2em 0;
-    padding: 1.5em;
-    background-color: #fff;
-}
-summary {
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-}
-summary:hover {
+/* 링크 스타일 */
+a {
     color: #0d6efd;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
-/* 마크다운 코드 블록 스타일 */
-pre {
-    background-color: #282c34; /* 어두운 배경 */
-    color: #abb2bf;           /* 밝은 글자색 */
-    padding: 1.2em;
-    border-radius: 5px;
-    overflow-x: auto; /* 코드가 길면 스크롤바 생성 */
+/* 
+========================================
+프로젝트 목록 페이지 전용 스타일
+========================================
+*/
+.project-list {
+    list-style: none; /* 목록 앞의 점 제거 */
+    padding: 0;
 }
-code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 0.95em;
+
+.project-list li {
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-list li:hover {
+    transform: translateY(-5px); /* 마우스를 올리면 살짝 위로 이동 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-list a {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.project-list span {
+    display: block; /* 날짜를 제목 아래로 내림 */
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+/* 
+========================================
+게시글, 소개 페이지 (본문) 스타일
+========================================
+*/
+article {
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 30px 40px;
+}
+
+article h2 {
+    margin-top: 0; /* 본문 첫 제목의 위쪽 여백 제거 */
 }
