@@ -48,6 +48,7 @@ category: project
 
 <details>
 <summary>index.js(클릭해서 열기)</summary>
+  <script src="https://gist.github.com/jjoon1234/308b92b817a78f52f1e26e6fa76f3295.js"></script>
 </details>
 
 ### 6. index.css파일은 아래처럼 작성함
