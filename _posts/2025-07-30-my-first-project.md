@@ -14,7 +14,7 @@ App.js 파일은 아래와 같이 작성함
 
 <details>
 <summary>App.js(클릭해서 열기)</summary>
-    
+**```
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -332,7 +332,7 @@ function App() {
 }
 
 export default App;
-
+```
 </details>
 
 App.css파일은 아래처럼 작성함
