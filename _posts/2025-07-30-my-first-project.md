@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "일정 관리 웹 프로젝트"
+title: "일정 관리 웹 프로젝트(2학년 2학기)"
 category: project
 ---
 
