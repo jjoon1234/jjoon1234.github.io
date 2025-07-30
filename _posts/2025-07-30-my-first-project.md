@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "나의 첫 번째 프로젝트: 개인 블로그 만들기"
-category: projects
+category: project
 ---
 
 ## 프로젝트 개요
