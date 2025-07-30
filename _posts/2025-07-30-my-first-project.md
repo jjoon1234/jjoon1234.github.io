@@ -34,6 +34,7 @@ category: project
 
 <details>
 <summary>Login.js(클릭해서 열기)</summary>
+  <script src="https://gist.github.com/jjoon1234/065d807148e0d83692eadc42f9f4d4f7.js"></script>
 </details>
 
 ### 4. Signup.js파일은 아래처럼 작성함
