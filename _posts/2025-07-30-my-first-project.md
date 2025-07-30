@@ -15,7 +15,7 @@ category: project
 
 ## 주요 소스코드
 
-#### 1. index.js파일은 아래처럼 작성함
+#### 1. index.js
 - 애플리케이션의 시작점 (Entry Point)
 React 앱이 실행될 때 가장 먼저 호출되는 파일로 App.js 컴포넌트를 가져와 웹 페이지의 'root'라는 ID를 가진 DOM 요소에 렌더링(표시)하는 역할을 합니다. 즉, 우리 눈에 보이는 앱 화면 전체를 불러오는 출발점입니다.
 <details>
@@ -68,3 +68,5 @@ App.js와 그 하위 컴포넌트(캘린더, 버튼, 입력창, 일정 목록 �
 </details>
 
 ## 동작 구조(Workflow)
+<img width="1105" height="710" alt="image" src="https://github.com/user-attachments/assets/ca4179bb-2a33-41a7-8a42-de77952a6c75" />
+
