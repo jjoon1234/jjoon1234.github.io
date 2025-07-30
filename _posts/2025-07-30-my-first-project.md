@@ -68,7 +68,7 @@ App.js와 그 하위 컴포넌트(캘린더, 버튼, 입력창, 일정 목록 �
 </details>
 
 ## 동작 구조(Workflow)
-<img width="1105" height="710" alt="image" src="https://github.com/user-attachments/assets/ca4179bb-2a33-41a7-8a42-de77952a6c75" />
+<img alt="image" style="max-width: 100%; height: auto;" src="https://github.com/user-attachments/assets/ca4179bb-2a33-41a7-8a42-de77952a6c75" />
 
 
 1. 시작 (index.js)
