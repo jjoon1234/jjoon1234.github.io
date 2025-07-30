@@ -9,7 +9,7 @@ title: "소개"
 제가 진행한 프로젝트와 공부한 내용들을 정리해놓고 있습니다.
 
 ### 내 소개
-- 이름: AnJunSeob
+- 이름: AJS
 - 관심 분야: 웹, AI, 백엔드, 게임
 - 다뤄본 언어 : Python, Java, JS, HTML
-- 연락처: wnstjq5325@naver.com
+- 연락처: ggg@naver.com
