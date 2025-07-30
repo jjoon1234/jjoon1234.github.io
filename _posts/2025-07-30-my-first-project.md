@@ -12,6 +12,7 @@ category: project
 - CSS
 - React
 - JS
+- Node.js
 
 ## 주요 소스코드
 
